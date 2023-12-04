@@ -1,0 +1,37 @@
+.card {
+    width: 250px;
+    height: 300px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #888888;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #ffffff;
+  }
+  .card-header {
+    background-color: #ffd500;
+    color: #ffffff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .card-body {
+    text-align: center;
+  }
+  .card-body p {
+    text-align: center;
+  }
+  .bntCard {
+    width: 100px;
+    border-radius: 15px;
+    text-align: center;
+    background: black;
+    color:#ffffff;
+  }
+  .card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+  }

@@ -1,0 +1,45 @@
+.formL {
+    background-color: cadetblue;
+    padding: 2%;
+    height: 350px;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #000000;
+    display: flex;
+    flex-direction: column;
+}
+
+.formL h2 {
+    text-align: center;
+    padding-bottom: 15%;
+}
+
+.formL input {
+    border-radius: 15px;
+    height: 10%;
+    border: none;
+    box-shadow: 5px 5px 5px #000000;
+}
+
+.secFormL {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bntFormL {
+    width: 70px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 5px 5px 5px #000000;
+    margin-bottom: 15px;
+}
+
+.bntCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 15%;
+}

@@ -1,0 +1,21 @@
+.navBar{
+    width: 100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 5%, rgba(171,119,0,1) 75%, #ffd500);
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    padding-right: 3%;
+}
+
+
+nav li{
+    display: inline-block;
+    margin: 0 0 0 15px;
+}
+
+.avatarIcon{
+    height: 30px !important;
+}
