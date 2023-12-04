@@ -28,12 +28,9 @@ function FormSignup() {
       <div className='secForm'>
         <h2>Faça seu cadastro</h2>
         <form onSubmit={handleSubmit}>
-          <label>Nome de usuário:</label>
-          <input type='text' value={username} onChange={e => setUsername(e.target.value)}></input>
-          <label>Email:</label>
-          <input type='text' value={email} onChange={e => setEmail(e.target.value)}></input>
-          <label>Senha:</label>
-          <input type='password' value={password} onChange={e => setPassword(e.target.value)}></input>
+          <input type='text' placeholder='usuário' value={username} onChange={e => setUsername(e.target.value)}></input>
+          <input type='text' placeholder='Email' value={email} onChange={e => setEmail(e.target.value)}></input>
+          <input type='password' placeholder='Senha' value={password} onChange={e => setPassword(e.target.value)}></input>
           <button type='submit'>Cadastrar</button>
         </form>
       </div>
